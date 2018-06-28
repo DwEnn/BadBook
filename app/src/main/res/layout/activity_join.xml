@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_background_color"
+        android:orientation="vertical">
+
+        <com.ssomai.android.scalablelayout.ScalableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_base_height="100"
+            app:scale_base_width="300">
+
+            <ImageView
+                android:id="@+id/aj_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_btn"
+                app:scale_height="30"
+                app:scale_left="10"
+                app:scale_top="40"
+                app:scale_width="30" />
+
+            <ImageView
+                android:id="@+id/aj_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:src="@mipmap/app_logo"
+                app:scale_height="70"
+                app:scale_top="20"
+                app:scale_width="200" />
+
+        </com.ssomai.android.scalablelayout.ScalableLayout>
+
+        <com.ssomai.android.scalablelayout.ScalableLayout
+            android:id="@+id/aj_info_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            app:scale_base_height="177"
+            app:scale_base_width="200">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아이디"
+                android:textColor="@android:color/black"
+                app:scale_height="13"
+                app:scale_left="15"
+                app:scale_textsize="9"
+                app:scale_top="8"
+                app:scale_width="40" />
+
+            <EditText
+                android:id="@+id/aj_id_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="아이디를 입력하세요"
+                android:inputType="textWebEditText"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="#cccccc"
+                app:scale_height="18"
+                app:scale_left="63"
+                app:scale_textsize="9"
+                app:scale_top="6"
+                app:scale_width="130" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#cccccc"
+                app:scale_height="0.2"
+                app:scale_left="5"
+                app:scale_top="29"
+                app:scale_width="190" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="비밀번호"
+                android:textColor="@android:color/black"
+                app:scale_height="13"
+                app:scale_left="15"
+                app:scale_textsize="9"
+                app:scale_top="37"
+                app:scale_width="45" />
+
+            <EditText
+                android:id="@+id/aj_passwd_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="비밀번호를 입력하세요"
+                android:inputType="textWebPassword"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="#cccccc"
+                app:scale_height="18"
+                app:scale_left="63"
+                app:scale_textsize="9"
+                app:scale_top="35"
+                app:scale_width="130" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#cccccc"
+                app:scale_height="0.2"
+                app:scale_left="5"
+                app:scale_top="58"
+                app:scale_width="190" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="비밀번호  확인"
+                android:textColor="@android:color/black"
+                app:scale_height="23"
+                app:scale_left="15"
+                app:scale_textsize="9"
+                app:scale_top="61"
+                app:scale_width="40" />
+
+            <EditText
+                android:id="@+id/aj_re_passwd_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="비밀번호를 다시 입력하세요"
+                android:inputType="textWebPassword"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="#cccccc"
+                app:scale_height="18"
+                app:scale_left="63"
+                app:scale_textsize="9"
+                app:scale_top="64"
+                app:scale_width="130" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#cccccc"
+                app:scale_height="0.2"
+                app:scale_left="5"
+                app:scale_top="88"
+                app:scale_width="190" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="나이"
+                android:textColor="@android:color/black"
+                app:scale_height="13"
+                app:scale_left="15"
+                app:scale_textsize="9"
+                app:scale_top="96"
+                app:scale_width="45" />
+
+            <EditText
+                android:id="@+id/aj_age_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="나이를 입력하세요"
+                android:inputType="number"
+                android:digits="0123456789"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="#cccccc"
+                app:scale_height="18"
+                app:scale_left="63"
+                app:scale_textsize="9"
+                app:scale_top="94"
+                app:scale_width="130" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#cccccc"
+                app:scale_height="0.2"
+                app:scale_left="5"
+                app:scale_top="117"
+                app:scale_width="190" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전화번호"
+                android:textColor="@android:color/black"
+                app:scale_height="13"
+                app:scale_left="15"
+                app:scale_textsize="9"
+                app:scale_top="125"
+                app:scale_width="45" />
+
+            <EditText
+                android:id="@+id/aj_phone_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="-을 포함하여 입력하세요"
+                android:digits="-0123456789"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="#cccccc"
+                app:scale_height="18"
+                app:scale_left="63"
+                app:scale_textsize="9"
+                app:scale_top="123"
+                app:scale_width="130" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#cccccc"
+                app:scale_height="0.2"
+                app:scale_left="5"
+                app:scale_top="146"
+                app:scale_width="190" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이메일"
+                android:textColor="@android:color/black"
+                app:scale_height="13"
+                app:scale_left="15"
+                app:scale_textsize="9"
+                app:scale_top="156"
+                app:scale_width="45" />
+
+            <EditText
+                android:id="@+id/aj_mail_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="＠를 포함하여 입력하세요"
+                android:inputType="textWebEmailAddress"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="#cccccc"
+                app:scale_height="18"
+                app:scale_left="63"
+                app:scale_textsize="9"
+                app:scale_top="154"
+                app:scale_width="130" />
+
+        </com.ssomai.android.scalablelayout.ScalableLayout>
+
+        <com.ssomai.android.scalablelayout.ScalableLayout
+            android:id="@+id/aj_btn_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:scale_base_height="53"
+            app:scale_base_width="200">
+
+            <Button
+                android:id="@+id/aj_join_btn"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:background="@drawable/ripple_join_btn"
+                android:text="회원가입"
+                android:textColor="@color/hight_light_color"
+                app:scale_height="20"
+                app:scale_textsize="9"
+                app:scale_top="25"
+                app:scale_width="130" />
+
+        </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    </LinearLayout>
+
+</layout>

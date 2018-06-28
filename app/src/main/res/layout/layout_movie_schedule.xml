@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/ar_movie_schedule_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:scale_base_height="13"
+        app:scale_base_width="200">
+
+        <TextView
+            android:id="@+id/lms_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2D"
+            android:textColor="@android:color/black"
+            app:scale_height="13"
+            app:scale_left="10"
+            app:scale_textsize="9"
+            app:scale_width="25" />
+
+        <TextView
+            android:id="@+id/lms_theater_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:gravity="end"
+            android:text="6관"
+            android:textColor="@android:color/holo_red_light"
+            app:scale_height="13"
+            app:scale_textsize="9"
+            app:scale_width="25" />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lms_schedule_recyclerView"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

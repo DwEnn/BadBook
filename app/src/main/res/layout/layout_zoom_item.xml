@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tap_top_background_color">
+
+    <com.ssomai.android.scalablelayout.ScalableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        app:scale_base_height="200"
+        app:scale_base_width="200">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|top"
+            android:src="@mipmap/seat_background_logohdpi"
+            app:scale_height="35"
+            app:scale_width="100" />
+
+        <!-- A열 -->
+        <ImageView
+            android:id="@+id/azi_a2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="31"
+            app:scale_top="55"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="A2"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="33"
+            app:scale_textsize="6"
+            app:scale_top="56"
+            app:scale_width="10" />
+
+
+        <ImageView
+            android:id="@+id/azi_a3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="51"
+            app:scale_top="55"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="A3"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="53"
+            app:scale_textsize="6"
+            app:scale_top="56"
+            app:scale_width="10" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/no_seat_hearhdpi"
+            app:scale_height="11"
+            app:scale_left="64"
+            app:scale_top="55"
+            app:scale_width="11" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/no_seat_hearhdpi"
+            app:scale_height="11"
+            app:scale_left="77"
+            app:scale_top="55"
+            app:scale_width="11" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/no_seat_hearhdpi"
+            app:scale_height="11"
+            app:scale_left="90"
+            app:scale_top="55"
+            app:scale_width="11" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/no_seat_hearhdpi"
+            app:scale_height="11"
+            app:scale_left="103"
+            app:scale_top="55"
+            app:scale_width="11" />
+
+        <ImageView
+            android:id="@+id/azi_a8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="116"
+            app:scale_top="55"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="A8"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="118"
+            app:scale_textsize="6"
+            app:scale_top="56"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_a11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="163"
+            app:scale_top="55"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="A11"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="164"
+            app:scale_textsize="5"
+            app:scale_top="57"
+            app:scale_width="10" />
+
+        <!-- B열 -->
+        <ImageView
+            android:id="@+id/azi_b1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="18"
+            app:scale_top="68"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="B1"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="20"
+            app:scale_textsize="6"
+            app:scale_top="69"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_b2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="31"
+            app:scale_top="68"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="B2"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="33"
+            app:scale_textsize="6"
+            app:scale_top="69"
+            app:scale_width="10" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/no_seat_hearhdpi"
+            app:scale_height="11"
+            app:scale_left="51"
+            app:scale_top="68"
+            app:scale_width="11" />
+
+        <ImageView
+            android:id="@+id/azi_b4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/throne_seathdpi"
+            app:scale_height="11"
+            app:scale_left="64"
+            app:scale_top="68"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="B4"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="66"
+            app:scale_textsize="6"
+            app:scale_top="69"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_b5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/throne_seathdpi"
+            app:scale_height="11"
+            app:scale_left="77"
+            app:scale_top="68"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="B5"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="79"
+            app:scale_textsize="6"
+            app:scale_top="69"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_b6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/throne_seathdpi"
+            app:scale_height="11"
+            app:scale_left="90"
+            app:scale_top="68"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="B6"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="92"
+            app:scale_textsize="6"
+            app:scale_top="69"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_b7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/throne_seathdpi"
+            app:scale_height="11"
+            app:scale_left="103"
+            app:scale_top="68"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="B7"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="105"
+            app:scale_textsize="6"
+            app:scale_top="69"
+            app:scale_width="10" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/no_seat_hearhdpi"
+            app:scale_height="11"
+            app:scale_left="116"
+            app:scale_top="68"
+            app:scale_width="11" />
+
+        <ImageView
+            android:id="@+id/azi_b9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="137"
+            app:scale_top="68"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="B9"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="139"
+            app:scale_textsize="6"
+            app:scale_top="69"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_b11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="163"
+            app:scale_top="68"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="B11"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="164"
+            app:scale_textsize="5"
+            app:scale_top="70"
+            app:scale_width="10" />
+
+        <!-- C열 -->
+        <ImageView
+            android:id="@+id/azi_c1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="18"
+            app:scale_top="81"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="C1"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="20"
+            app:scale_textsize="6"
+            app:scale_top="82"
+            app:scale_width="10" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/no_seat_hearhdpi"
+            app:scale_height="11"
+            app:scale_left="51"
+            app:scale_top="81"
+            app:scale_width="11" />
+
+        <ImageView
+            android:id="@+id/azi_c4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/throne_seathdpi"
+            app:scale_height="11"
+            app:scale_left="64"
+            app:scale_top="81"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="C4"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="66"
+            app:scale_textsize="6"
+            app:scale_top="82"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_c5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/throne_seathdpi"
+            app:scale_height="11"
+            app:scale_left="77"
+            app:scale_top="81"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="C5"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="79"
+            app:scale_textsize="6"
+            app:scale_top="82"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_c6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/throne_seathdpi"
+            app:scale_height="11"
+            app:scale_left="90"
+            app:scale_top="81"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="C6"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="92"
+            app:scale_textsize="6"
+            app:scale_top="82"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_c7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/throne_seathdpi"
+            app:scale_height="11"
+            app:scale_left="103"
+            app:scale_top="81"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="C7"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="105"
+            app:scale_textsize="6"
+            app:scale_top="82"
+            app:scale_width="10" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/no_seat_hearhdpi"
+            app:scale_height="11"
+            app:scale_left="116"
+            app:scale_top="81"
+            app:scale_width="11" />
+
+        <ImageView
+            android:id="@+id/azi_c9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="137"
+            app:scale_top="81"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="C9"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="139"
+            app:scale_textsize="6"
+            app:scale_top="82"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_c10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="150"
+            app:scale_top="81"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="C10"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="151"
+            app:scale_textsize="5"
+            app:scale_top="83"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_c11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="163"
+            app:scale_top="81"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="C11"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="164"
+            app:scale_textsize="5"
+            app:scale_top="83"
+            app:scale_width="10" />
+
+        <!-- D열 -->
+        <ImageView
+            android:id="@+id/azi_d1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="18"
+            app:scale_top="94"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="D1"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="20"
+            app:scale_textsize="6"
+            app:scale_top="95"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_d2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="31"
+            app:scale_top="94"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="D2"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="33"
+            app:scale_textsize="6"
+            app:scale_top="95"
+            app:scale_width="10" />
+
+
+        <ImageView
+            android:id="@+id/azi_d3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="51"
+            app:scale_top="94"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="D3"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="53"
+            app:scale_textsize="6"
+            app:scale_top="95"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_d4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="64"
+            app:scale_top="94"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="D4"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="66"
+            app:scale_textsize="6"
+            app:scale_top="95"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_d5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="77"
+            app:scale_top="94"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="D5"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="79"
+            app:scale_textsize="6"
+            app:scale_top="95"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_d6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="90"
+            app:scale_top="94"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="D6"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="92"
+            app:scale_textsize="6"
+            app:scale_top="95"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_d7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="103"
+            app:scale_top="94"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="D7"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="105"
+            app:scale_textsize="6"
+            app:scale_top="95"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_d8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="116"
+            app:scale_top="94"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="D8"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="118"
+            app:scale_textsize="6"
+            app:scale_top="95"
+            app:scale_width="10" />
+
+
+        <ImageView
+            android:id="@+id/azi_d9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="137"
+            app:scale_top="94"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="D9"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="139"
+            app:scale_textsize="6"
+            app:scale_top="95"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_d10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="150"
+            app:scale_top="94"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="D10"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="151"
+            app:scale_textsize="5"
+            app:scale_top="96"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_d11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="163"
+            app:scale_top="94"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="D11"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="164"
+            app:scale_textsize="5"
+            app:scale_top="96"
+            app:scale_width="10" />
+
+        <!-- E열 -->
+        <ImageView
+            android:id="@+id/azi_e1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="18"
+            app:scale_top="107"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="E1"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="20"
+            app:scale_textsize="6"
+            app:scale_top="108"
+            app:scale_width="10" />
+
+
+        <ImageView
+            android:id="@+id/azi_e3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="51"
+            app:scale_top="107"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="E3"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="53"
+            app:scale_textsize="6"
+            app:scale_top="108"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_e4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="64"
+            app:scale_top="107"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="E4"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="66"
+            app:scale_textsize="6"
+            app:scale_top="108"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_e5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="77"
+            app:scale_top="107"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="E5"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="79"
+            app:scale_textsize="6"
+            app:scale_top="108"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_e6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="90"
+            app:scale_top="107"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="E6"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="92"
+            app:scale_textsize="6"
+            app:scale_top="108"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_e7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="103"
+            app:scale_top="107"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="E7"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="105"
+            app:scale_textsize="6"
+            app:scale_top="108"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_e8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="116"
+            app:scale_top="107"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="E8"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="118"
+            app:scale_textsize="6"
+            app:scale_top="108"
+            app:scale_width="10" />
+
+
+        <ImageView
+            android:id="@+id/azi_e9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="137"
+            app:scale_top="107"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="E9"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="139"
+            app:scale_textsize="6"
+            app:scale_top="108"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_e10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="150"
+            app:scale_top="107"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="E10"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="151"
+            app:scale_textsize="5"
+            app:scale_top="109"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_e11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="163"
+            app:scale_top="107"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="E11"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="164"
+            app:scale_textsize="5"
+            app:scale_top="109"
+            app:scale_width="10" />
+
+        <!-- F열 -->
+        <ImageView
+            android:id="@+id/azi_f1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="18"
+            app:scale_top="120"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="F1"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="20"
+            app:scale_textsize="6"
+            app:scale_top="121"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_f3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/prime_seathdpi"
+            app:scale_height="11"
+            app:scale_left="51"
+            app:scale_top="120"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="F3"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="53"
+            app:scale_textsize="6"
+            app:scale_top="121"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_f4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/prime_seathdpi"
+            app:scale_height="11"
+            app:scale_left="64"
+            app:scale_top="120"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="F4"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="66"
+            app:scale_textsize="6"
+            app:scale_top="121"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_f5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/prime_seathdpi"
+            app:scale_height="11"
+            app:scale_left="77"
+            app:scale_top="120"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="F5"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="79"
+            app:scale_textsize="6"
+            app:scale_top="121"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_f6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/prime_seathdpi"
+            app:scale_height="11"
+            app:scale_left="90"
+            app:scale_top="120"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="F6"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="92"
+            app:scale_textsize="6"
+            app:scale_top="121"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_f7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/prime_seathdpi"
+            app:scale_height="11"
+            app:scale_left="103"
+            app:scale_top="120"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="F7"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="105"
+            app:scale_textsize="6"
+            app:scale_top="121"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_f8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/prime_seathdpi"
+            app:scale_height="11"
+            app:scale_left="116"
+            app:scale_top="120"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="F8"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="118"
+            app:scale_textsize="6"
+            app:scale_top="121"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_f9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="137"
+            app:scale_top="120"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="F9"
+            android:textColor="@android:color/white"
+            app:scale_height="10"
+            app:scale_left="139"
+            app:scale_textsize="6"
+            app:scale_top="121"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_f10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="150"
+            app:scale_top="120"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="F10"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="151"
+            app:scale_textsize="5"
+            app:scale_top="122"
+            app:scale_width="10" />
+
+        <ImageView
+            android:id="@+id/azi_f11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            app:scale_height="11"
+            app:scale_left="163"
+            app:scale_top="120"
+            app:scale_width="11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="F11"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="164"
+            app:scale_textsize="5"
+            app:scale_top="122"
+            app:scale_width="10" />
+
+        <!-- BOTTOM -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:src="@mipmap/standard_zonehdpi"
+            app:scale_height="30"
+            app:scale_left="5"
+            app:scale_width="60" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:src="@mipmap/prime_zonehdpi"
+            app:scale_height="30"
+            app:scale_left="70"
+            app:scale_width="60" />
+
+        <ImageView
+            android:id="@+id/lzi_throne_zone_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:src="@mipmap/throne_zonehdpi"
+            app:scale_height="30"
+            app:scale_left="135"
+            app:scale_width="60" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            android:background="@android:color/darker_gray"
+            app:scale_height="8"
+            app:scale_left="32"
+            app:scale_top="155"
+            app:scale_width="8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="불가축천민"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="25"
+            app:scale_textsize="5"
+            app:scale_top="165"
+            app:scale_width="25" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            android:background="@android:color/holo_green_dark"
+            app:scale_height="8"
+            app:scale_left="63.5"
+            app:scale_top="155"
+            app:scale_width="8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="수드라"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="60"
+            app:scale_textsize="5"
+            app:scale_top="165"
+            app:scale_width="20" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            android:background="@android:color/holo_orange_dark"
+            app:scale_height="8"
+            app:scale_left="93"
+            app:scale_top="155"
+            app:scale_width="8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="바이샤"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="90"
+            app:scale_textsize="5"
+            app:scale_top="165"
+            app:scale_width="20" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            android:background="@android:color/holo_blue_dark"
+            app:scale_height="8"
+            app:scale_left="127"
+            app:scale_top="155"
+            app:scale_width="8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="크샤트리아"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="120"
+            app:scale_textsize="5"
+            app:scale_top="165"
+            app:scale_width="25" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/standard_seathdpi"
+            android:background="#FFD700"
+            app:scale_height="8"
+            app:scale_left="156"
+            app:scale_top="155"
+            app:scale_width="8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="브라만"
+            android:textColor="@android:color/white"
+            app:scale_height="8"
+            app:scale_left="153"
+            app:scale_textsize="5"
+            app:scale_top="165"
+            app:scale_width="20" />
+
+    </com.ssomai.android.scalablelayout.ScalableLayout>
+
+</LinearLayout>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_background_color">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/at_appBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/at_toolBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/actionBarSize"
+                    android:background="#ffffff"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/at_back_btn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                            android:src="@drawable/back_btn" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="모바일 티켓"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.Toolbar>
+
+            </android.support.design.widget.AppBarLayout>
+
+            <com.ssomai.android.scalablelayout.ScalableLayout
+                app:scale_base_width="200"
+                app:scale_base_height="105"
+                android:paddingTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/at_movie_img"
+                    android:src="@mipmap/movie4"
+                    app:scale_width="70"
+                    app:scale_left="10"
+                    app:scale_height="100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    app:scale_left="90"
+                    app:scale_width="100"
+                    app:scale_height="1"
+                    app:scale_top="0"
+                    android:background="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    app:scale_left="92"
+                    app:scale_top="3.5"
+                    app:scale_width="11"
+                    app:scale_height="11"
+                    android:src="@mipmap/age_rate_19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_left="107"
+                    app:scale_top="3"
+                    app:scale_width="80"
+                    app:scale_height="13"
+                    app:scale_textsize="9"
+                    android:text="독전"
+                    android:singleLine="true"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_left="95"
+                    app:scale_top="23"
+                    app:scale_width="30"
+                    app:scale_height="10"
+                    app:scale_textsize="6"
+                    android:text="예매번호"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_left="152"
+                    app:scale_top="23"
+                    app:scale_width="30"
+                    app:scale_height="10"
+                    app:scale_textsize="6"
+                    android:gravity="right"
+                    android:textColor="@android:color/holo_red_light"
+                    android:text="10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_left="95"
+                    app:scale_top="33"
+                    app:scale_width="80"
+                    app:scale_height="10"
+                    app:scale_textsize="6"
+                    android:text="상영관"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_left="152"
+                    app:scale_top="33"
+                    app:scale_width="30"
+                    app:scale_height="10"
+                    app:scale_textsize="6"
+                    android:gravity="right"
+                    android:text="5관"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_left="95"
+                    app:scale_top="43"
+                    app:scale_width="80"
+                    app:scale_height="10"
+                    app:scale_textsize="6"
+                    android:text="관람일"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_left="122"
+                    app:scale_top="43"
+                    app:scale_width="60"
+                    app:scale_height="10"
+                    app:scale_textsize="6"
+                    android:gravity="right"
+                    android:text="2018.06.26(화)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_left="95"
+                    app:scale_top="53"
+                    app:scale_width="80"
+                    app:scale_height="10"
+                    app:scale_textsize="6"
+                    android:text="좌석"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_left="152"
+                    app:scale_top="53"
+                    app:scale_width="30"
+                    app:scale_height="10"
+                    app:scale_textsize="6"
+                    android:gravity="right"
+                    android:text="E6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_left="95"
+                    app:scale_top="63"
+                    app:scale_width="80"
+                    app:scale_height="10"
+                    app:scale_textsize="6"
+                    android:text="인원"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_left="152"
+                    app:scale_top="63"
+                    app:scale_width="30"
+                    app:scale_height="10"
+                    app:scale_textsize="6"
+                    android:gravity="right"
+                    android:text="성인 1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/at_seat_btn"
+                    app:scale_top="78"
+                    app:scale_width="60"
+                    app:scale_height="15"
+                    app:scale_textsize="8"
+                    app:scale_left="115"
+                    android:textColor="@android:color/white"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:text="좌석도"
+                    android:background="@drawable/ripple_login_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    app:scale_top="78"
+                    app:scale_width="15"
+                    app:scale_height="15"
+                    app:scale_textsize="8"
+                    app:scale_left="99"
+                    android:src="@mipmap/seat_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    app:scale_left="90"
+                    app:scale_width="100"
+                    app:scale_height="1"
+                    app:scale_top="98"
+                    android:background="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </com.ssomai.android.scalablelayout.ScalableLayout>
+
+            <com.ssomai.android.scalablelayout.ScalableLayout
+                app:scale_base_width="200"
+                app:scale_base_height="175"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    app:scale_width="200"
+                    app:scale_height="50"
+                    app:scale_textsize="40"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="22 : 05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    app:scale_width="150"
+                    app:scale_left="40"
+                    app:scale_height="25"
+                    app:scale_top="45"
+                    app:scale_textsize="20"
+                    android:gravity="center"
+                    android:text="~ 23 : 20"
+                    android:textColor="@color/tap_id_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    app:scale_left="5"
+                    app:scale_width="190"
+                    app:scale_height="1"
+                    app:scale_top="80"
+                    android:background="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    app:scale_left="5"
+                    app:scale_width="190"
+                    app:scale_height="40"
+                    app:scale_top="80"
+                    android:src="@mipmap/barcode"
+                    android:scaleType="fitXY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    app:scale_left="5"
+                    app:scale_width="190"
+                    app:scale_height="1"
+                    app:scale_top="120"
+                    android:background="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    app:scale_left="5"
+                    app:scale_width="190"
+                    app:scale_top="122"
+                    app:scale_height="50"
+                    app:scale_textsize="9"
+                    android:gravity="center"
+                    android:text="교환 및 환불은 상영시간 전까지 영수증 지참
+입장지연에 따른 관람불편을 최소화하고자
+본 영화는 약 10여분 후에 시작됩니다.
+관람에티켓을 위한 사전입장을 부탁드립니다."
+                    android:textColor="@color/tap_id_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    app:scale_left="5"
+                    app:scale_width="190"
+                    app:scale_height="1"
+                    app:scale_top="173"
+                    android:background="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </com.ssomai.android.scalablelayout.ScalableLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+
+</layout>

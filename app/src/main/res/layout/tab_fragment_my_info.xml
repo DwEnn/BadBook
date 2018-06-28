@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:background="@color/app_background_color"
+        android:id="@+id/tfmi_scrollView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingBottom="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="5dp">
+
+        <com.ssomai.android.scalablelayout.ScalableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            app:scale_base_height="192"
+            app:scale_base_width="200">
+
+            <TextView
+                android:id="@+id/tfmi_rank_tv"
+                android:gravity="end"
+                app:scale_textsize="9"
+                app:scale_width="80"
+                app:scale_height="12"
+                app:scale_top="3"
+                android:layout_gravity="right"
+                android:layout_marginEnd="10dp"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                android:textColor="@android:color/holo_red_light"
+                android:text="※ 계급표 보러가기"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아이디"
+                android:textColor="@android:color/black"
+                app:scale_height="13"
+                app:scale_left="15"
+                app:scale_textsize="9"
+                app:scale_top="23"
+                app:scale_width="40" />
+
+            <EditText
+                android:id="@+id/tfmi_id_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="아이디를 입력하세요"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:inputType="textWebEditText"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="#cccccc"
+                app:scale_height="18"
+                app:scale_left="63"
+                app:scale_textsize="9"
+                app:scale_top="21"
+                app:scale_width="130" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#cccccc"
+                app:scale_height="0.2"
+                app:scale_left="5"
+                app:scale_top="44"
+                app:scale_width="190" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보유금액"
+                android:textColor="@android:color/black"
+                app:scale_height="13"
+                app:scale_left="15"
+                app:scale_textsize="9"
+                app:scale_top="52"
+                app:scale_width="45" />
+
+            <EditText
+                android:id="@+id/tfmi_passwd_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="보유금액"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="#cccccc"
+                app:scale_height="18"
+                app:scale_left="63"
+                app:scale_textsize="9"
+                app:scale_top="48"
+                app:scale_width="130" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#cccccc"
+                app:scale_height="0.2"
+                app:scale_left="5"
+                app:scale_top="73"
+                app:scale_width="190" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="누적 마일리지"
+                android:textColor="@android:color/black"
+                app:scale_height="23"
+                app:scale_left="15"
+                app:scale_textsize="9"
+                app:scale_top="77"
+                app:scale_width="40" />
+
+            <EditText
+                android:id="@+id/tfmi_re_passwd_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="누적 마일리지"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="#cccccc"
+                app:scale_height="18"
+                app:scale_left="63"
+                app:scale_textsize="9"
+                app:scale_top="79"
+                app:scale_width="130" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#cccccc"
+                app:scale_height="0.2"
+                app:scale_left="5"
+                app:scale_top="103"
+                app:scale_width="190" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="나이"
+                android:textColor="@android:color/black"
+                app:scale_height="13"
+                app:scale_left="15"
+                app:scale_textsize="9"
+                app:scale_top="111"
+                app:scale_width="45" />
+
+            <EditText
+                android:id="@+id/tfmi_age_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="나이를 입력하세요"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="#cccccc"
+                app:scale_height="18"
+                app:scale_left="63"
+                app:scale_textsize="9"
+                app:scale_top="109"
+                app:scale_width="130" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#cccccc"
+                app:scale_height="0.2"
+                app:scale_left="5"
+                app:scale_top="132"
+                app:scale_width="190" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전화번호"
+                android:textColor="@android:color/black"
+                app:scale_height="13"
+                app:scale_left="15"
+                app:scale_textsize="9"
+                app:scale_top="140"
+                app:scale_width="45" />
+
+            <EditText
+                android:id="@+id/tfmi_phone_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="-을 포함하여 입력하세요"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="#cccccc"
+                app:scale_height="18"
+                app:scale_left="63"
+                app:scale_textsize="9"
+                app:scale_top="138"
+                app:scale_width="130" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#cccccc"
+                app:scale_height="0.2"
+                app:scale_left="5"
+                app:scale_top="161"
+                app:scale_width="190" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이메일"
+                android:textColor="@android:color/black"
+                app:scale_height="13"
+                app:scale_left="15"
+                app:scale_textsize="9"
+                app:scale_top="171"
+                app:scale_width="45" />
+
+            <EditText
+                android:id="@+id/tfmi_mail_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="＠를 포함하여 입력하세요"
+                android:inputType="textWebEmailAddress"
+                android:singleLine="true"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:textColor="@android:color/black"
+                android:textColorHint="#cccccc"
+                app:scale_height="18"
+                app:scale_left="63"
+                app:scale_textsize="9"
+                app:scale_top="169"
+                app:scale_width="130" />
+
+
+        </com.ssomai.android.scalablelayout.ScalableLayout>
+
+
+    </ScrollView>
+
+
+</layout>

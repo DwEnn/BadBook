@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/app_background_color"
+            android:orientation="vertical">
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/am_appBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/ar_toolBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/actionBarSize"
+                    android:background="#ffffff"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/ar_back_btn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                            android:src="@drawable/back_btn" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="예매"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.Toolbar>
+
+            </android.support.design.widget.AppBarLayout>
+
+            <com.ssomai.android.scalablelayout.ScalableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tap_top_background_color"
+                app:scale_base_height="100"
+                app:scale_base_width="200">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/ar_movie_recyclerView"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:scale_height="100"
+                    app:scale_width="200">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </com.ssomai.android.scalablelayout.ScalableLayout>
+
+            <com.ssomai.android.scalablelayout.ScalableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                app:scale_base_height="21"
+                app:scale_base_width="200">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/black"
+                    app:scale_height="0.5"
+                    app:scale_left="8"
+                    app:scale_width="184" />
+
+                <ImageView
+                    android:id="@+id/ar_age_rate_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/age_rate_15"
+                    app:scale_height="12"
+                    app:scale_left="10"
+                    app:scale_top="4.5"
+                    app:scale_width="12" />
+
+                <TextView
+                    android:id="@+id/ar_movie_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="인피니티워"
+                    android:textColor="@android:color/black"
+                    app:scale_height="13"
+                    app:scale_left="25"
+                    app:scale_textsize="10"
+                    app:scale_top="4"
+                    app:scale_width="70" />
+
+                <TextView
+                    android:id="@+id/ar_date_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="5월 31일 목요일"
+                    app:scale_height="13"
+                    app:scale_left="100"
+                    app:scale_textsize="9"
+                    app:scale_top="4"
+                    app:scale_width="75" />
+
+                <ImageView
+                    android:id="@+id/ar_calendar_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/calendar"
+                    app:scale_height="11"
+                    app:scale_left="177"
+                    app:scale_top="4"
+                    app:scale_width="11" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/black"
+                    app:scale_height="0.5"
+                    app:scale_left="8"
+                    app:scale_top="20"
+                    app:scale_width="184" />
+
+            </com.ssomai.android.scalablelayout.ScalableLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ar_schedule_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ar_none_data_tv"
+                        android:text="상영정보가 없습니다"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+
+</layout>

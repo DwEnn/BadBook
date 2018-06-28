@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/lmsl_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:background="@mipmap/schedule_card_background"
+        android:layout_width="150dp"
+        android:layout_height="100dp">
+
+        <com.ssomai.android.scalablelayout.ScalableLayout
+            app:scale_base_width="200"
+            app:scale_base_height="125"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/start_time_tv"
+                app:scale_top="15"
+                android:gravity="center"
+                app:scale_width="160"
+                app:scale_height="40"
+                app:scale_textsize="30"
+                android:textColor="@android:color/black"
+                android:text="21:10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/end_time_tv"
+                app:scale_top="47"
+                app:scale_left="30"
+                android:gravity="center"
+                app:scale_width="160"
+                app:scale_height="40"
+                app:scale_textsize="25"
+                android:text="~ 22:50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/seat_tv"
+                app:scale_top="103"
+                android:gravity="center"
+                app:scale_width="200"
+                app:scale_height="25"
+                app:scale_textsize="20"
+                android:textColor="@android:color/black"
+                android:text="22/50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    </LinearLayout>
+
+</layout>

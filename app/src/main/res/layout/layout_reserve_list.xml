@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="reserveList"
+            type="and.dev.dwenn.com.badbook.dummy.ReserveList" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_background_color"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="5dp">
+
+        <com.ssomai.android.scalablelayout.ScalableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            app:scale_base_height="100"
+            app:scale_base_width="200">
+
+            <ImageView
+                android:id="@+id/lrl_movie_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/movie1"
+                app:scale_height="90"
+                app:scale_top="5"
+                app:scale_width="80" />
+
+            <ImageView
+                android:id="@+id/lrl_movie_rate_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/age_rate_all"
+                app:scale_height="11"
+                app:scale_left="78"
+                app:scale_top="12"
+                app:scale_width="11" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@{reserveList.movie_name}"
+                android:textColor="@android:color/black"
+                app:scale_height="15"
+                app:scale_left="93"
+                app:scale_textsize="11"
+                app:scale_top="10"
+                app:scale_width="100" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="예매번호 -"
+                app:scale_height="11"
+                app:scale_left="80"
+                app:scale_textsize="8"
+                app:scale_top="32"
+                app:scale_width="40" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@{reserveList.reserve_num}"
+                app:scale_height="11"
+                app:scale_left="116"
+                app:scale_textsize="8"
+                app:scale_top="32"
+                app:scale_width="80" />
+
+            <TextView
+                android:id="@+id/lrl_date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                app:scale_height="11"
+                app:scale_left="80"
+                app:scale_textsize="8"
+                app:scale_top="43"
+                app:scale_width="110" />
+
+            <TextView
+                android:id="@+id/lrl_content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                app:scale_height="13"
+                app:scale_left="80"
+                app:scale_textsize="8"
+                app:scale_top="54"
+                app:scale_width="110" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@{reserveList.reserve_status}"
+                android:textColor="@android:color/holo_red_light"
+                app:scale_height="13"
+                app:scale_left="80"
+                app:scale_textsize="10"
+                app:scale_top="75"
+                app:scale_width="110" />
+
+        </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    </LinearLayout>
+
+</layout>

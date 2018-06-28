@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.ssomai.android.scalablelayout.ScalableLayout
+            app:scale_base_width="200"
+            app:scale_base_height="270"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                app:scale_height="150"
+                app:scale_width="200"
+                android:src="@mipmap/rank_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/dr_rank_1_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="브라만"
+                android:layout_gravity="center|top"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                app:scale_height="15"
+                app:scale_textsize="10"
+                app:scale_top="38"
+                app:scale_width="30" />
+
+            <TextView
+                android:id="@+id/dr_rank_2_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="크샤트리아"
+                android:layout_gravity="center|top"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                app:scale_height="15"
+                app:scale_left="2"
+                app:scale_textsize="10"
+                app:scale_top="61"
+                app:scale_width="55" />
+
+            <TextView
+                android:id="@+id/dr_rank_3_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="바이샤"
+                android:layout_gravity="center|top"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                app:scale_height="15"
+                app:scale_left="2"
+                app:scale_textsize="10"
+                app:scale_top="84"
+                app:scale_width="55" />
+
+            <TextView
+                android:id="@+id/dr_rank_4_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="수드라"
+                android:layout_gravity="center|top"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                app:scale_height="15"
+                app:scale_left="2"
+                app:scale_textsize="10"
+                app:scale_top="106"
+                app:scale_width="55" />
+
+            <TextView
+                android:id="@+id/dr_rank_5_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="불가축 천민"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center|top"
+                android:gravity="center"
+                app:scale_height="15"
+                app:scale_left="2"
+                app:scale_textsize="10"
+                app:scale_top="130"
+                app:scale_width="65" />
+
+            <TextView
+                android:padding="20dp"
+                app:scale_top="150"
+                app:scale_height="130"
+                app:scale_width="200"
+                app:scale_textsize="9"
+                android:textColor="@android:color/black"
+                android:text="1. 상위 계급은 하위 계급의 자리를 빼앗을 수 있다.\n
+2. 시사회 참여는 상위 3계급까지만 가능하다.\n
+3. 명당 좌석 예매는 상위 3계급까지만 가능하다.\n
+4. 영화 개봉 당일 예매는 상위 3계급까지만 가능하다.\n
+5. 불가축천민은 프라임타임 관람금지.\n
+6. 불가축천민은 2d이외 관람 금지."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    </LinearLayout>
+
+</layout>

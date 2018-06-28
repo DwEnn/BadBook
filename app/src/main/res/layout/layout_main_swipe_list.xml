@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="movieList"
+            type="and.dev.dwenn.com.badbook.item.Movie"/>
+    </data>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/app_background_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.ssomai.android.scalablelayout.ScalableLayout
+            app:scale_base_width="160"
+            app:scale_base_height="310"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/lmsl_movie_img"
+                app:scale_left="10"
+                app:scale_height="210"
+                app:scale_width="140"
+                android:src="@mipmap/movie1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/lmsl_age_rate_img"
+                app:scale_width="15"
+                app:scale_height="15"
+                app:scale_top="216"
+                app:scale_left="15"
+                android:src="@mipmap/age_rate_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/lmsl_movie_title_tv"
+                app:scale_textsize="13"
+                app:scale_width="110"
+                app:scale_height="18"
+                app:scale_left="35"
+                app:scale_top="215"
+                android:lines="1"
+                android:ellipsize="end"
+                android:text="@{movieList.movie_name}"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="등급"
+                app:scale_textsize="7"
+                app:scale_width="30"
+                app:scale_height="10"
+                app:scale_left="25"
+                app:scale_top="238"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/lmsl_age_rate_tv"
+                app:scale_textsize="7"
+                app:scale_width="80"
+                app:scale_height="10"
+                app:scale_left="65"
+                app:scale_top="238"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                app:scale_textsize="7"
+                app:scale_width="30"
+                app:scale_height="10"
+                app:scale_left="25"
+                app:scale_top="247"
+                android:text="개봉"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/lmsl_open_date_tv"
+                app:scale_textsize="7"
+                app:scale_width="80"
+                app:scale_height="10"
+                app:scale_left="65"
+                app:scale_top="247"
+                android:text="@{movieList.release_date}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                app:scale_textsize="7"
+                app:scale_width="30"
+                app:scale_height="10"
+                app:scale_left="25"
+                app:scale_top="256"
+                android:text="장르"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/lmsl_genre_tv"
+                app:scale_textsize="7"
+                app:scale_width="80"
+                app:scale_height="10"
+                app:scale_left="65"
+                app:scale_top="256"
+                android:text="@{movieList.genre}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                app:scale_textsize="7"
+                app:scale_width="30"
+                app:scale_height="10"
+                app:scale_left="25"
+                app:scale_top="265"
+                android:text="시간"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/lmsl_run_time_tv"
+                app:scale_textsize="7"
+                app:scale_width="80"
+                app:scale_height="10"
+                app:scale_left="65"
+                app:scale_top="265"
+                android:text="@{movieList.run_time}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/lmsl_reserve_btn"
+                android:text="예매"
+                android:textColor="@android:color/white"
+                app:scale_textsize="10"
+                app:scale_width="140"
+                app:scale_height="18"
+                app:scale_left="10"
+                app:scale_top="285"
+                style="?android:attr/borderlessButtonStyle"
+                android:background="@drawable/ripple_login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    </LinearLayout>
+
+</layout>
